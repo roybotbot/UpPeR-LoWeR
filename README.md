@@ -8,7 +8,7 @@ The CoNvErTeD TeXt is added to your clipboard. Go paste and be merry...and/or sa
 
 ## KeYbOaRd sHoRtCuT On mAcOs
 
-If you're on MacOS, you can use _Automator_ to create a "Quick action" (aka Service) to run the script. Once you've created, given a name, and saved this quick action, go into _System Preferences_ > _Keyboard_ and in the "Shortcuts" section you can select your action and assign a keyboard shortcut to it. 
+If you're on MacOS, you can use _Automator_ to create a "Quick action" (aka Service) to run the script from terminal. Once you've created, named, and saved this quick action, go into _System Preferences_ > _Keyboard_ and in the "Shortcuts" section you can select your action and assign a keyboard shortcut to it. 
 
 ### Acknowledgements
 
