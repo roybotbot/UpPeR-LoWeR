@@ -1,14 +1,17 @@
 #!/usr/local/bin/python
 
+import subprocess 
+
 sTrInG = input("PaStE In sTrInG YoU WaNt tO cHaNgE: ").lower()
 
-nEw_StRiNG = ""
+NeW_StRiNg = ""
 iNdEx = 0
 for i in sTrInG:
 	if i != " " and iNdEx % 2 == 0:
-			nEw_StRiNG += i.upper()
+			NeW_StRiNg += i.upper()
 	else:
-		nEw_StRiNG += i
+		NeW_StRiNg += i
 	iNdEx += 1
 
-print(nEw_StRiNG)
+subprocess.run("pbcopy", universal_newlines=True, input=NeW_StRiNg)
+print("\"" + NeW_StRiNg + "\"" + " has been copied to the clipboard.")
