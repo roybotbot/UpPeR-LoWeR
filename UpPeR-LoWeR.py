@@ -1,8 +1,10 @@
-#!/usr/local/bin/python
+#!/usr/local/bin/python3
 
 import subprocess 
+import pyperclip as ppcp
 
-sTrInG = input("PaStE In sTrInG YoU WaNt tO cHaNgE: ").lower()
+#sTrInG = input("PaStE In sTrInG YoU WaNt tO cHaNgE: ").lower()
+sTrInG  = ppcp.paste()
 
 NeW_StRiNg = ""
 iNdEx = 0
