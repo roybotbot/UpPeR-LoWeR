@@ -14,4 +14,4 @@ If you're on MacOS, you can use _Automator_ to create a "Quick action" (aka Serv
 
 To the Twitter troll that inspired me to make this, thank you.
 
-This script uses (Pyperclip)[https://github.com/asweigart/pyperclip].  
+This script uses [Pyperclip](https://github.com/asweigart/pyperclip). 
