@@ -1,6 +1,5 @@
 #!/usr/local/bin/python3
 
-import subprocess 
 import pyperclip as pycp
 
 sTrInG  = pycp.paste()
@@ -14,4 +13,4 @@ for i in sTrInG:
 		NeW_StRiNg += i
 	iNdEx += 1
 
-subprocess.run("pbcopy", universal_newlines=True, input=NeW_StRiNg)
+pycp.copy(NeW_StRiNg)
