@@ -1,7 +1,8 @@
-#!/usr/local/bin/python3
+# UpPeR-LoWeR.py
 
 import pyperclip as pycp
 
+# gets clipboard and assigns to sTrInG
 sTrInG  = pycp.paste()
 
 NeW_StRiNg = ""
@@ -13,4 +14,5 @@ for i in sTrInG:
 		NeW_StRiNg += i
 	iNdEx += 1
 
+# copies NeW_StRiNg to keyboard
 pycp.copy(NeW_StRiNg)
