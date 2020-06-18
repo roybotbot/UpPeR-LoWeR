@@ -1,5 +1,4 @@
-# UpPeR-LoWeR_iOS.py
-
+#!usr/bin/env python3
 # afaik, to get this to work with iOS Shortcuts argv is needed
 import sys
 

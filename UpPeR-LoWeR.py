@@ -1,5 +1,4 @@
-# UpPeR-LoWeR.py
-
+#!usr/bin/env python3
 import pyperclip as pycp
 
 # gets clipboard and assigns to sTrInG
